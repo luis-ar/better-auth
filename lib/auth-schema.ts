@@ -35,3 +35,7 @@ export const signInFormSchema = formSchema.pick({
   email: true,
   password: true,
 });
+
+export const magicLinkFormSchema = formSchema.pick({
+  email: true,
+});
