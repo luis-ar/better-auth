@@ -5,6 +5,7 @@ import Link from "next/link";
 import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
+import { ComboboxDemo } from "./optionsSingIn";
 
 const Navbar = async () => {
   const session = await auth.api.getSession({
@@ -31,9 +32,10 @@ const Navbar = async () => {
               <Button>Sign Out</Button>
             </form>
           ) : (
-            <Link href="/sign-in" className={buttonVariants()}>
-              Sign In
-            </Link>
+            // <Link href="/sign-in" className={buttonVariants()}>
+            //   Sign In
+            // </Link>
+            <ComboboxDemo />
           )}
         </div>
       </div>

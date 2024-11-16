@@ -135,7 +135,7 @@ export default function SignIn() {
 
       <Card className="w-full max-w-md mx-auto">
         <CardHeader>
-          <CardTitle>Sign In</CardTitle>
+          <CardTitle>Sign In OTP</CardTitle>
           <CardDescription>Create your account to get started.</CardDescription>
         </CardHeader>
         <CardContent>

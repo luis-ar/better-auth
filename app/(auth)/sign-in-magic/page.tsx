@@ -64,7 +64,7 @@ export default function SignIn() {
   return (
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
-        <CardTitle>Sign In</CardTitle>
+        <CardTitle>Sign In Magic Link</CardTitle>
         <CardDescription>Create your account to get started.</CardDescription>
       </CardHeader>
       <CardContent>
@@ -83,23 +83,7 @@ export default function SignIn() {
                 </FormItem>
               )}
             />
-            {/* <FormField
-              control={form.control}
-              name="password"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>Password</FormLabel>
-                  <FormControl>
-                    <Input
-                      type="password"
-                      placeholder="Enter your password"
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            /> */}
+
             <Button type="submit" className="w-full">
               Submit
             </Button>
