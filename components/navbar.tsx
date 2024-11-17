@@ -32,9 +32,6 @@ const Navbar = async () => {
               <Button>Sign Out</Button>
             </form>
           ) : (
-            // <Link href="/sign-in" className={buttonVariants()}>
-            //   Sign In
-            // </Link>
             <ComboboxDemo />
           )}
         </div>
